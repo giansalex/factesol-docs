@@ -5,7 +5,15 @@
 
 FACTESOL - Documentación
 ========================
+Documentacion para la elaboración y envió de comprobantes electronicos al API de `factesol <https://factesol.net.pe>`_.
 
+.. image:: img/factesol.png
+   :scale: 70 %
+   :alt: Factesol Logo
+   :align: center
+  
+Indice
+-------
 .. toctree::
    :maxdepth: 2
    :glob:

@@ -6,6 +6,7 @@ C#
 ---
 
 .. code-block:: csharp
+    :linenos:
 
     namespace App
     {
@@ -18,6 +19,7 @@ Java
 -----
 
 .. code-block:: java
+    :linenos:
 
     class App
     {
@@ -29,9 +31,10 @@ Java
 PHP
 -----
 .. code-block:: php
+    :linenos:
 
     <?php
-    
+
     class App
     {
       public function main() 
