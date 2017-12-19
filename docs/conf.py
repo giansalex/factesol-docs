@@ -46,8 +46,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'factesol'
-copyright = u'2017, Giancarlos Salas'
-author = u'Giancarlos Salas'
+copyright = u'2017, Ti Soluciones'
+author = u'Ti Soluciones'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -134,7 +134,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'factesol.tex', u'factesol Documentation',
-     u'Giancarlos Salas', 'manual'),
+     u'Ti Soluciones', 'manual'),
 ]
 
 
