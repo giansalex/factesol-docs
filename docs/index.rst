@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 FACTESOL - Documentación
-========================
+=========================
 Documentacion para la elaboración y envió de comprobantes electronicos al API de `factesol <https://factesol.net.pe>`_.
 
 .. note:: Necesitas tener un plan de servicio para utilizar nuestra plataforma. 
