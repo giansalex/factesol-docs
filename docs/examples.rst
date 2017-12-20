@@ -2,6 +2,8 @@ Ejemplos
 ========
 Se proveen algunos ejemplos para el envio de comprobantes al API.
 
+.. note:: Para ejecuar los siguiente ejemplos necesita crear un token, vaya a la sección :doc:`tutorial` 
+
 C#
 ---
 Usar los espacios de nombres.
