@@ -81,7 +81,7 @@ Contenido del archivo de texto.
 
     CAB||01|F001|123|2017-12-20|6|20480048359|EMPRESA SAC|admin@domain.pe|PEN|0|0|0|50|0|50||9|0|0|109|||||||||||||||||
     DET|NIU|5|C0001||PROD 1|10|0|1.8|10|||10|50||
-    DET|MTR|42C0002||PROD 2|25|0|0|30|||25|50||
+    DET|MTR|4|C0002||PROD 2|25|0|0|30|||25|50||
 
 
 Boleta
@@ -163,7 +163,7 @@ Contenido del archivo de texto.
 
     CAB||03|B001|123|2017-12-20|1|22334455|PERSONA F|user@gmail.com|USD|0|0|0|50|0|50||9|0|0|109|||||||||||||||||3.26
     DET|NIU|5|C0001||PROD 1|10|0|1.8|10|||10|50||
-    DET|ZZ|42C0002||PROD 2|25|0|0|30|||25|50||
+    DET|ZZ|4|C0002||PROD 2|25|0|0|30|||25|50||
 
 
 Nota de Crédito
@@ -245,7 +245,7 @@ Contenido del archivo de texto.
 
     CAB||07|F001|111|2017-12-20|6|20480048359|EMPRESA SAC|admin@domain.pe|PEN|0|0|0|50|0|50||9|0|0|109|||02|ERROR EN RUC|01|F001-123|||||||||||
     DET|NIU|5|C0001||PROD 1|10|0|1.8|10|||10|50||
-    DET|MTR|42C0002||PROD 2|25|0|0|30|||25|50||
+    DET|MTR|4|C0002||PROD 2|25|0|0|30|||25|50||
 
 
 Nota de Débito
@@ -327,4 +327,4 @@ Contenido del archivo de texto.
 
     CAB||07|F001|122|2017-12-20|6|20480048359|EMPRESA SAC|admin@domain.pe|PEN|0|0|0|50|0|50||9|0|0|109|||01|Intereses|01|F001-123|||||||||||
     DET|NIU|5|C0001||PROD 1|10|0|1.8|10|||10|50||
-    DET|MTR|42C0002||PROD 2|25|0|0|30|||25|50||
+    DET|MTR|4|C0002||PROD 2|25|0|0|30|||25|50||
