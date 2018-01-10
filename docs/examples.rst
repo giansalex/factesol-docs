@@ -105,3 +105,28 @@ Para el siguiente ejemplo necesita tener activada la extension Curl.
     curl_close ($ch);
 
     var_dump($result);
+    
+Visual FoxPro
+-----
+
+.. code-block:: vb
+    :emphasize-lines: 11
+
+    token = "UN-TOKEN-VALIDO"
+    txt = "CAB||01|F001|433|2017-12-01|6|20480048359..."
+    //o También 
+    //* txt = FILETOSTR(Ruta_de_archivo)
+
+    oHTTP =  Createobject('MsXml2.XmlHttp');
+    oHTTP.OPEN("POST", pURL_WSDL, .F.):
+    oHTTP.setRequestHeader("Content-Type", "text/plain")
+    oHTTP.setRequestHeader("Authorization", "Bearer " + ctoken)
+    oHTTP.SEND( ALLTRIM(txt) )
+    
+    Do While oHTTP.ReadyState <> 4
+       Doevents Force
+    Enddo     
+
+    RespuestaWS = oHTTP.responseText
+    RespuestaEstado = oHTTP.status
+ 
