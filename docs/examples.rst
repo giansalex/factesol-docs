@@ -110,7 +110,7 @@ Visual FoxPro
 -----
 
 .. code-block:: vb
-    :emphasize-lines: 11
+    :emphasize-lines: 10
 
     token = "UN-TOKEN-VALIDO"
     txt = "CAB||01|F001|433|2017-12-01|6|20480048359..."
