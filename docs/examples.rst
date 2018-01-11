@@ -113,9 +113,8 @@ Visual FoxPro
     :emphasize-lines: 10
 
     token = "UN-TOKEN-VALIDO"
-    txt = "CAB||01|F001|433|2017-12-01|6|20480048359..."
-    //o También 
-    //* txt = FILETOSTR(Ruta_de_archivo)
+    txt = FILETOSTR(Ruta_de_archivo)
+    // txt = "CAB||01|F001|433|2017-12-01|6|20480048359..."
 
     oHTTP =  Createobject('MsXml2.XmlHttp');
     oHTTP.OPEN("POST", pURL_WSDL, .F.):
