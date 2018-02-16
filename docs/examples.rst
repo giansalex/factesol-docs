@@ -23,7 +23,7 @@ Emplear el siguiente codigo para el envio.
 
     var http = (HttpWebRequest)WebRequest.Create("https://factesol.net.pe/api/v1/doc/ventas");
     http.Method = "POST";
-    http.ContentType = "application/json";
+    http.ContentType = "text/plain";
     http.Headers.Add("Authorization", "Bearer " + token);
     var content = Encoding.UTF8.GetBytes(txt);
     http.ContentLength = content.Length;
