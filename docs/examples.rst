@@ -96,6 +96,7 @@ Para el siguiente ejemplo necesita tener activada la extension Curl.
 
     curl_setopt($ch, CURLOPT_URL, "https://factesol.net.pe/api/v1/doc/ventas");
     curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1 );
     curl_setopt($ch, CURLOPT_POSTFIELDS, $txt);
     curl_setopt($ch, CURLOPT_HTTPHEADER, $header); 
