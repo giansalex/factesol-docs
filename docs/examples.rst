@@ -115,8 +115,8 @@ Visual FoxPro
 
     pURL_WSDL = "https://factesol.net.pe/api/v1/doc/ventas"
     token = "UN-TOKEN-VALIDO"
-    txt = FILETOSTR(Ruta_de_archivo)
-    * txt = "CAB||01|F001|433|2017-12-01|6|20480048359..."
+    * txt = FILETOSTR(Ruta_de_archivo)
+    txt = "CAB||01|F001|433|2017-12-01|6|20480048359..."
 
     oHTTP =  Createobject('MsXml2.XmlHttp');
     oHTTP.OPEN("POST", pURL_WSDL, .F.):
@@ -124,9 +124,9 @@ Visual FoxPro
     oHTTP.setRequestHeader("Authorization", "Bearer " + ctoken)
     oHTTP.SEND( ALLTRIM(txt) )
     
-    Do While oHTTP.ReadyState <> 4
-       Doevents Force
-    Enddo     
+    * Do While oHTTP.ReadyState <> 4
+    *    Doevents Force
+    * Enddo     
 
     RespuestaWS = oHTTP.responseText
     RespuestaEstado = oHTTP.status
