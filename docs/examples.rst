@@ -129,5 +129,12 @@ Visual FoxPro
     * Enddo     
 
     RespuestaWS = oHTTP.responseText
+    RespuestaBd = oHTTP.responseBody
     RespuestaEstado = oHTTP.status
+    
+    IF RespuestaEstado <> 200
+        MESSAGEBOX("Error")
+    ELSE
+        MESSAGEBOX("enviado correctamente")
+    ENDIF 
  
