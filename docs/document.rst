@@ -27,8 +27,8 @@ Descuentos Globales
 Sumatoria otros Cargos
 Total descuentos
 Total valor de venta - Operaciones gravadas                     50
-Total valor de venta - Operaciones inafectas                    0
-Total valor de venta - Operaciones exoneradas                   50
+Total valor de venta - Operaciones inafectas                    50
+Total valor de venta - Operaciones exoneradas                   0
 Total valor de venta - Operaciones gratuitas
 Sumatoria IGV                                                   9
 Sumatoria ISC
@@ -79,7 +79,7 @@ Contenido del archivo de texto.
 
 .. code-block:: bash
 
-    CAB||01|F001|123|2017-12-20|6|20480048359|EMPRESA SAC|admin@domain.pe|PEN|0|0|0|50|0|50||9|0|0|109|||||||||||||||||
+    CAB||01|F001|123|2017-12-20|6|20480048359|EMPRESA SAC|admin@domain.pe|PEN|0|0|0|50|50|0||9|0|0|109|||||||||||||||||
     DET|NIU|5|C0001||PROD 1|10|0|1.8|10|||10|50||
     DET|MTR|4|C0002||PROD 2|25|0|0|30|||25|50||
 
