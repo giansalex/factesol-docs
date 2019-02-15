@@ -14,3 +14,17 @@ Comunicaciones de Bajas de las ventas emitidas.
 
 
 https://factesol.net.pe/api/v1/doc/bajas
+
+Retención
+---------
+Comprobante de Retenciones.
+
+
+https://factesol.net.pe/api/v1/doc/retenciones
+
+Percepción
+----------
+Comprobante de Percepciones.
+
+
+https://factesol.net.pe/api/v1/doc/percepciones
