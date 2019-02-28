@@ -28,3 +28,9 @@ Comprobante de Percepciones.
 
 
 https://factesol.net.pe/api/v1/doc/percepciones
+
+Reversión
+---------
+Resumen de Reversiones.
+
+https://factesol.net.pe/api/v1/doc/reversiones
