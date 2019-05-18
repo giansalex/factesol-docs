@@ -35,6 +35,37 @@ Resumen de Reversiones.
 
 https://factesol.net.pe/api/v1/doc/reversiones
 
+.. http:post::  /api/reversion/status
+
+    Retorna el estado del resumen asociado al id despues de haber sido enviado a Sunat.
+
+    **Example request**:
+
+    .. sourcecode:: js
+
+        {
+            "Ruc": "20123456789",
+            "TipoDocumento": "20",
+            "Serie": "R001",
+            "Correlativo": "123"
+        }
+
+    :jsonparam string Ruc: Ruc del emisor del comprobante.
+    :jsonparam string TipoDocumento: Tipo documento (20 - Retencion, 40 - Percepcion).
+    :jsonparam string Serie: Serie del comprobante.
+    :jsonparam string Correlativo: Correlativo del comprobante.
+
+    **Example response**:
+
+    .. sourcecode:: js
+
+        {
+            "Success": true,
+            "Code": "03",
+            "Description": "El Resumen de Reversion XXXX ha sido aceptado"
+        }
+
+
 Resumen Diario
 --------------
 
