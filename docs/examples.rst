@@ -140,7 +140,7 @@ Visual Basic 6
 -----
 
 .. code-block:: vb
-    :emphasize-lines: 19
+    :emphasize-lines: 18
 
 pURL_WSDL = "https://factesol.net.pe/api/v2/doc/ventas"
 token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJydWMiOiIyMDEyMzQ1Njc4OSIsInR5cGUiOiJzeXMiLCJkYXRlIjoxNTQwMzMyOTg0fQ.ijQaRydA6-Ptsbn3IdXeyH272hUoa--uWM3khEAFIgc"
