@@ -139,7 +139,7 @@ Visual FoxPro
 Visual Basic 6
 -----
 
-.. code-block:: vb
+.. code-block:: vfp
     :emphasize-lines: 18
 
 pURL_WSDL = "https://factesol.net.pe/api/v2/doc/ventas"
